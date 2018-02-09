@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.cheshta.fingerprintauthapp.MainActivity">
+
+    <TextView
+        android:id="@+id/tvHeadingLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:text="Fingerprint Authentication" />
+
+    <ImageView
+        android:id="@+id/ivFingerprint"
+        android:layout_marginTop="30dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvParaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:text="Place your finger on the scanner to proceed"/>
+
+</LinearLayout>
